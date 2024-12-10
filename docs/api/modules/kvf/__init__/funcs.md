@@ -37,7 +37,7 @@ def dump(sections, file, *, spacing=1, mode='c', type_ref=None, bin_to_text=Fals
 No docstring
 
 ```python
-def get_config(filename, *, type_ref=None, obj_builder=None, end_of_stream=None):
+def get_config(filename, *, type_ref=None, obj_builder=None):
     ...
 ```
 
@@ -47,7 +47,7 @@ def get_config(filename, *, type_ref=None, obj_builder=None, end_of_stream=None)
 No docstring
 
 ```python
-def load(file, *, type_ref=None, obj_builder=None, end_of_stream=None, root_dir=None):
+def load(file, *, type_ref=None, obj_builder=None, root_dir=None):
     ...
 ```
 
@@ -57,7 +57,7 @@ def load(file, *, type_ref=None, obj_builder=None, end_of_stream=None, root_dir=
 No docstring
 
 ```python
-def parse(s, *, type_ref=None, root_dir=None, obj_builder=None, end_of_stream=None):
+def parse(s, *, type_ref=None, root_dir=None, obj_builder=None):
     ...
 ```
 
